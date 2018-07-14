@@ -74,7 +74,7 @@ class Calendar extends React.Component {
 								: dateFns.isSameDay(day, selectedDate) ? "selected" : ""
 						}`}
 						key={day}
-						onClick={() => this.onDateCLick(dateFns.parse(cloneDay))}
+						onClick={() => this.onDateClick(dateFns.parse(cloneDay))}
 					>
 						<span className="number">{formattedDate}</span>
 						<span className="bg">{formattedDate}</span>
